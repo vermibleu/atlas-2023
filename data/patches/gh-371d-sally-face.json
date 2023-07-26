@@ -1,0 +1,67 @@
+{
+	"id": -1,
+	"name": "Sally Face",
+	"description": "Sally Face is a dark adventure game following a boy with a prosthetic face. Sal uses his handheld video game system to speak with the dead and learn their stories. After a string of mysterious murders, Sal and his three friends discover something truly sinister casting shadows over their small town.",
+	"links": {
+		"website": [
+			"https://portablemoose.com/",
+			"https://store.steampowered.com/app/541570/Sally_Face__Episode_One/"
+		],
+		"subreddit": [
+			"sallyface"
+		],
+		"discord": [
+			"dzdBCCX"
+		]
+	},
+	"path": {
+		"254": [
+			[
+				972,
+				-1000
+			],
+			[
+				972,
+				-1000
+			],
+			[
+				972,
+				-1000
+			],
+			[
+				972,
+				-1000
+			],
+			[
+				972,
+				-997
+			],
+			[
+				972,
+				-998
+			],
+			[
+				972,
+				-985
+			],
+			[
+				1000,
+				-985
+			],
+			[
+				1000,
+				-1000
+			],
+			[
+				972,
+				-1000
+			]
+		]
+	},
+	"center": {
+		"254": [
+			986,
+			-992
+		]
+	}
+}
