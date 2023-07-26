@@ -39,7 +39,7 @@ const variationsConfig = {
 	default: {
 		name: "r/place",
 		code: "",
-		default: undefined,
+		default: 254,
 		drawablePeriods: [1, undefined],
 		drawableRegions: [
 			[[1, 54], [-500, -500, 499, 499]],
@@ -294,6 +294,24 @@ const variationsConfig = {
 			{ "timestamp": 1690288201, "url": ["./_img/canvas/main/1690288201.png"] },
 			{ "timestamp": 1690290001, "url": ["./_img/canvas/main/1690290001.png"] },
 			{ "timestamp": 1690291801, "url": ["./_img/canvas/main/1690291801.png"] },
+			{ "timestamp": 1690293657, "url": ["./_img/canvas/main/1690293657.png"] },
+			{ "timestamp": 1690295436, "url": ["./_img/canvas/main/1690295436.png"] },
+			{ "timestamp": 1690297219, "url": ["./_img/canvas/main/1690297219.png"] },
+			{ "timestamp": 1690299001, "url": ["./_img/canvas/main/1690299001.png"] },
+			{ "timestamp": 1690300848, "url": ["./_img/canvas/main/1690300848.png"] },
+			{ "timestamp": 1690302635, "url": ["./_img/canvas/main/1690302635.png"] },
+			{ "timestamp": 1690304417, "url": ["./_img/canvas/main/1690304417.png"] },
+			{ "timestamp": 1690306259, "url": ["./_img/canvas/main/1690306259.png"] },
+			{ "timestamp": ['Reddit Official Final Canvas', 1690308006], "url": ["./_img/canvas/main-ex/redditfinal.png"] },
+			{ "timestamp": 1690309849, "url": ["./_img/canvas/main/1690309849.png"] },
+			{ "timestamp": 1690311634, "url": ["./_img/canvas/main/1690311634.png"] },
+			{ "timestamp": 1690313420, "url": ["./_img/canvas/main/1690313420.png"] },
+			{ "timestamp": ['True Final Canvas', 1690314219], "url": ["./_img/canvas/main/1690314219.png"] },
+			{ "timestamp": ['Gray-out', 1690315204], "url": ["./_img/canvas/main/1690315204.png"] },
+			{ "timestamp": ['Gray-out', 1690317045], "url": ["./_img/canvas/main/1690317045.png"] },
+			{ "timestamp": ['Whiteout', 1690318825], "url": ["./_img/canvas/main/1690318825.png"] },
+			{ "timestamp": ['Whiteout', 1690320611], "url": ["./_img/canvas/main/1690320611.png"] },
+			{ "timestamp": ['Whiteout', 1690320856], "url": ["./_img/canvas/main/1690320856.png"] },
 		],
 		icon: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 192 192" aria-hidden="true"><polygon points="154 0 154 38 39 38 39 192 0 192 0 0"/><polygon points="192 38 192 192 77 192 77 153 154 153 154 38"/><rect x="77" y="77" width="38" height="38"/></svg>'
 	},
@@ -301,7 +319,6 @@ const variationsConfig = {
 window.variationsConfig = variationsConfig
 
 const lastPeriod = variationsConfig.default.versions.length - 1
-variationsConfig.default.default = lastPeriod
 variationsConfig.default.drawablePeriods[1] = lastPeriod
 variationsConfig.default.drawableRegions[6][0][1] = lastPeriod
 
@@ -310,6 +327,7 @@ window.defaultVariation = defaultVariation
 
 let defaultPeriod = variationsConfig[defaultVariation].default
 window.defaultPeriod = defaultPeriod
+console.log(window.defaultPeriod);
 
 const useNumericalId = true
 window.useNumericalId = useNumericalId
